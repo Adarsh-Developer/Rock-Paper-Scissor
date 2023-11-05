@@ -54,11 +54,11 @@ body {
     transition: all 0.3s linear;
 }
 
-.buttons button:active{
+.buttons button:active {
     transform: scale(0.93);
 }
 
-.resultbox{
+.resultbox {
     z-index: 9;
     width: 400px;
     height: 300px;
@@ -76,20 +76,20 @@ body {
     padding: 30px 60px;
 }
 
-.resultbox span{
+.resultbox span {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
 }
 
-.resultbox h1{
+.resultbox h1 {
     font-size: 50px;
     color: #b8b8ff;
     -webkit-text-stroke: 0.5px #000;
-    text-shadow: 2px 2px 9px rgba(255, 255, 255, 50);   
+    text-shadow: 2px 2px 9px rgba(255, 255, 255, 50);
 }
 
-.resultbox button{
+.resultbox button {
     cursor: pointer;
     font-size: 17px;
     padding: 10px 15px;
@@ -102,37 +102,40 @@ body {
 
 
 @media (max-width:550px) {
-    .container{
+    .container {
         padding: 20px 30px;
     }
 }
 
-@media (max-width:480px){
-    .container .title{
+@media (max-width:480px) {
+    .container .title {
         font-size: 30px;
     }
-    .container .buttons button{
+
+    .container .buttons button {
         font-size: 30px;
     }
-    .resultbox{
+
+    .resultbox {
         width: 66.66vw;
         padding: 50px 20px;
         text-align: center;
     }
-    .resultbox h1{
+
+    .resultbox h1 {
         font-size: 40px;
     }
 }
 
-@media (max-width:380px){
-    .container{
+@media (max-width:380px) {
+    .container {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .container .buttons{
+    .container .buttons {
         flex-direction: column;
         width: 50px;
         height: auto;
@@ -141,21 +144,23 @@ body {
     }
 }
 
-@media (max-width:220px){
-    .resultbox span{
+@media (max-width:220px) {
+    .resultbox span {
         font-size: 15px;
     }
-    .resultbox h1{
+
+    .resultbox h1 {
         font-size: 25dpx;
     }
-    .resultbox button{
+
+    .resultbox button {
         font-size: 14px;
         padding: 5px 10px;
     }
 }
 
-@media (max-width:180px){
-    .container{
+@media (max-width:180px) {
+    .container {
         padding: 15px 15px;
     }
 }
