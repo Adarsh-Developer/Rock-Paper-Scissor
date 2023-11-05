@@ -149,7 +149,7 @@ body {
     }
 
     .resultbox h1 {
-        font-size: 25dpx;
+        font-size: 25px;
     }
 
     .resultbox button {
@@ -175,3 +175,4 @@ body {
         margin: 0;
     }
 }
+
