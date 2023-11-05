@@ -1,3 +1,8 @@
+@font-face {
+    font-family: gilroy;
+    src: url(./Gilroy-Bold.woff2);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -124,7 +129,7 @@ body {
 @media (max-width:480px) {
     .resultbox {
         width: 66.66vw;
-        padding: 50px 20px;
+        padding: 50px 10px;
         text-align: center;
     }
 
@@ -171,8 +176,7 @@ body {
 
 @media (max-width:370px) {
     .resultbox span {
-        font-size: 5.2vw;
+        font-size: 4.5vw;
         margin: 0;
     }
 }
-
