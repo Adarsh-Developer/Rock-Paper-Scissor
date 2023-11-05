@@ -168,3 +168,10 @@ body {
         font-size: 40px;
     }
 }
+
+@media (max-width:370px) {
+    .resultbox span {
+        font-size: 5.2vw;
+        margin: 0;
+    }
+}

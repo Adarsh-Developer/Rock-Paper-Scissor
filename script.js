@@ -1,3 +1,6 @@
+alert('This game is created by ADARSH JAIN')
+
+
 let rock = document.querySelector('.rock')
 let paper = document.querySelector('.paper')
 let scissor = document.querySelector('.scissor')
