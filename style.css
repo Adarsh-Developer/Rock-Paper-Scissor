@@ -1,6 +1,6 @@
 @font-face {
     font-family: gilroy;
-    src: url(./Gilroy-Bold.woff2);
+    src: url(./Gilroy-Regular.woff2);
 }
 
 * {
@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: gilroy;
+    font-weight: 800;
     caret-color: transparent;
 }
 
@@ -73,6 +74,7 @@ body {
     transition: all 0.3s ease;
     transform: scale(0);
     border-radius: 5px;
+    font-weight: 800;
 
     display: flex;
     flex-direction: column;
@@ -90,7 +92,9 @@ body {
 .resultbox h1 {
     font-size: 50px;
     color: #b8b8ff;
-    -webkit-text-stroke: 0.5px #000;
+    -webkit-text-stroke: 0.1px #000;
+    font-weight: 800;
+    font-family: ;
     text-shadow: 2px 2px 9px rgba(255, 255, 255, 50);
 }
 
